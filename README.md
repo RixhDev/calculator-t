@@ -19,7 +19,7 @@ The project is designed to be **portable**, **modular** and easy to compile on L
 
 *1. Clone the repo*
 
-wget https://github.com/RixhDev/calculator-t
+git clone https://github.com/RixhDev/calculator-t
 
 *2. Go to the proyect folder*
 $ cd Calculadora
