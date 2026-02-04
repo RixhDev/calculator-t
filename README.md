@@ -52,6 +52,12 @@ The project is designed to be **portable**, **modular** and easy to compile on L
 The original Makefile file uses *gcc* for compilation; you need to change it to *clang*.
 For this... Open the Makefile with nano/vim in your Termux, after Change the first line for this 
 
+### (Prerequisite) Install dependencies
+You must have:
+
+	pkg update && pkg upgrade 
+	pkg install make clang
+	
 Line 1 before:
 	
 	CC= gcc
@@ -60,7 +66,7 @@ Line 1 now:
 	
 	CC= clang
 
-That's it, now you can run Make successfully (step 5).
+✅ That's it, now you can run Make successfully (step 5).
 
 ---
 ---
